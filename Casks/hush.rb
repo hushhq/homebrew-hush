@@ -2,14 +2,14 @@ cask "hush" do
   # HUSHHQ-35. Homebrew Cask manifest template.
   # Update `version`, both `sha256` values, and verify the artifact
   # URL before submitting to a Homebrew tap.
-  version "0.1.44-mvp"
+  version "0.1.45-mvp"
 
   on_arm do
-    sha256 "be0d047731e823f0fd246e4867ceadf3c672c0c49d07a82818056aa148ffcd9b"
+    sha256 "819fd292a1ffae87606f33ff8939e5324ec4a440a9acabde0f1211766897c276"
     url "https://github.com/hushhq/hush-desktop/releases/download/v#{version}/Hush-#{version}-arm64.dmg"
   end
   on_intel do
-    sha256 "fe80acbec93eda2d0ecc638519f82889daba77b5368e6fb2d6f4ac5a9e19ec0a"
+    sha256 "8d7ace5f60cf4adc825a5ba8fe862961e2cb352bca9f2b8ec5aadb3d0fae4158"
     url "https://github.com/hushhq/hush-desktop/releases/download/v#{version}/Hush-#{version}.dmg"
   end
 
